@@ -3,6 +3,7 @@ namespace BankingSystem;
 public class Account()
 {
     public decimal Balance { get; private set; }
+    public bool IsBlocked { get; set; } = false;
 
     public void Deposit(decimal amount)
     {

@@ -1,7 +1,8 @@
 namespace BankingSystem.Tests;
 
 // Setup and Teardown...
-public class AccountTest {
+public class AccountTest
+{
 
     [Fact]
     public void ShouldCreateCorrectTypeOfBankAccount()
@@ -63,5 +64,31 @@ public class AccountTest {
 
         // Assert...
         Assert.Throws<InvalidOperationException>(() => account.Withdraw(250));
+    }
+
+    [Fact]
+    public void ShouldBlockAccount()
+    {
+        // Arrange...
+        var account = new Account();
+
+        // Act...
+        account.IsBlocked = true;
+
+        // Assert...
+        Assert.True(account.IsBlocked);
+    }
+
+    [Fact]
+    public void ShouldUnBlockAccount()
+    {
+        // Arrange...
+        var account = new Account();
+
+        // Act...
+        account.IsBlocked = false;
+
+        // Assert...
+        Assert.False(account.IsBlocked);
     }
 }
