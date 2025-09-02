@@ -1,8 +1,8 @@
 namespace BankingSystem;
 
-public class Account(decimal initAmount)
+public class Account()
 {
-    public decimal Balance { get; private set; } = initAmount;
+    public decimal Balance { get; private set; }
 
     public void Deposit(decimal amount)
     {
