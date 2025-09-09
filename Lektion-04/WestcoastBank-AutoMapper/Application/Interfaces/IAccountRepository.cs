@@ -1,7 +1,6 @@
-using Domain.Entities;
-using Services.DTOs;
+using Application.DTOs;
 
-namespace Services.Interfaces;
+namespace Application.Interfaces;
 
 public interface IAccountRepository
 {

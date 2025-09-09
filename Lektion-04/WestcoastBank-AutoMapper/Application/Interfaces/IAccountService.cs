@@ -1,8 +1,7 @@
 
+using Application.DTOs;
 
-using Services.DTOs;
-
-namespace Application.Services;
+namespace Application.Interfaces;
 
 public interface IAccountService
 {

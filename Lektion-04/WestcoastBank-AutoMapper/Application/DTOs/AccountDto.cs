@@ -1,4 +1,4 @@
-namespace Services.DTOs;
+namespace Application.DTOs;
 
 public class AccountDto
 {

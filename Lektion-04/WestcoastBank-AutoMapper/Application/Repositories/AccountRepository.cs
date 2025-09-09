@@ -1,9 +1,11 @@
-using Services.DTOs;
-using Services.Interfaces;
+using Application.DTOs;
+using Application.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using Persistence;
 
 namespace Application.Repositories;
 
-public class AccountRepository() : IAccountRepository
+public class AccountRepository(AppDbContext context) : IAccountRepository
 {
     public Task<string> CreateAccount(AccountDto accountDto)
     {
@@ -20,8 +22,10 @@ public class AccountRepository() : IAccountRepository
         throw new NotImplementedException();
     }
 
-    public Task<List<AccountDto>> ListAllAccounts()
+    public async Task<List<AccountDto>> ListAllAccounts()
     {
+        // var accounts = await context.Accounts.ToListAsync();
+        // return accounts;
         throw new NotImplementedException();
     }
 
