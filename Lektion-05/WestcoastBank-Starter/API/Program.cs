@@ -1,3 +1,6 @@
+using Application.Core;
+using Application.Interfaces;
+using Application.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 
@@ -9,6 +12,10 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultDev"));
 });
+
+// Dependency injection...
+builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+builder.Services.AddAutoMapper(typeof(MappingProfiles).Assembly);
 
 var app = builder.Build();
 

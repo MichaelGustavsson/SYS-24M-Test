@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cSKbQDRKnm0=",
+  "dgSpecHash": "fZe5O/p60h8=",
   "success": true,
   "projectFilePath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-05/WestcoastBank-Starter/BankAccount.Tests/BankAccount.Tests.csproj",
   "expectedPackageFiles": [
+    "/Users/michaelgustavsson/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/michaelgustavsson/.nuget/packages/coverlet.collector/6.0.2/coverlet.collector.6.0.2.nupkg.sha512",
     "/Users/michaelgustavsson/.nuget/packages/microsoft.codecoverage/17.12.0/microsoft.codecoverage.17.12.0.nupkg.sha512",
     "/Users/michaelgustavsson/.nuget/packages/microsoft.data.sqlite.core/9.0.8/microsoft.data.sqlite.core.9.0.8.nupkg.sha512",

@@ -143,3 +143,4 @@
 /Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-05/WestcoastBank-Starter/BankAccount.Tests/bin/Debug/net9.0/Application.pdb
 /Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-05/WestcoastBank-Starter/BankAccount.Tests/bin/Debug/net9.0/Domain.pdb
 /Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-05/WestcoastBank-Starter/BankAccount.Tests/bin/Debug/net9.0/Persistence.pdb
+/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-05/WestcoastBank-Starter/BankAccount.Tests/bin/Debug/net9.0/AutoMapper.dll
