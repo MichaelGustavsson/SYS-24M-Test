@@ -5,5 +5,5 @@ namespace Persistence;
 
 public class AppDbContext(DbContextOptions options) : DbContext(options)
 {
-    public DbSet<Account> Accounts { get; set; }
+    public DbSet<BankAccount> BankAccounts { get; set; }
 }

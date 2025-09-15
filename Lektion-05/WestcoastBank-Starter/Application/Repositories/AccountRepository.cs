@@ -5,7 +5,7 @@ namespace Application.Repositories;
 
 public class AccountRepository : IAccountRepository
 {
-    public Task<string> CreateAccount(AccountDto accountDto)
+    public Task<AccountDto> CreateAccount(CreateAccountDto accountDto)
     {
         throw new NotImplementedException();
     }

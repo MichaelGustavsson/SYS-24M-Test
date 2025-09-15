@@ -4,7 +4,7 @@ namespace Application.Interfaces;
 
 public interface IAccountRepository
 {
-    public Task<string> CreateAccount(AccountDto accountDto);
+    public Task<AccountDto> CreateAccount(CreateAccountDto accountDto);
     public Task<List<AccountDto>> ListAllAccounts();
     public Task<List<AccountDto>> ListAllAccounts(string owner);
     public Task<AccountDto> GetAccount(string id);

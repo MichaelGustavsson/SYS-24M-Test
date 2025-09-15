@@ -1,6 +1,6 @@
 namespace Domain.Entities;
 
-public class Account
+public class BankAccount
 {
     public string Id { get; set; } = Guid.NewGuid().ToString().Replace("-", "");
     public required string AccountNumber { get; set; }
