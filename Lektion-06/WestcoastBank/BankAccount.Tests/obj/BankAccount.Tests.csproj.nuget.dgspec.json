@@ -1,0 +1,289 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/BankAccount.Tests/BankAccount.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Application/Application.csproj",
+        "packagesPath": "/Users/michaelgustavsson/.nuget/packages/",
+        "outputPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michaelgustavsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Domain/Domain.csproj": {
+                "projectPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Domain/Domain.csproj"
+              },
+              "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Persistence/Persistence.csproj": {
+                "projectPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Persistence/Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/BankAccount.Tests/BankAccount.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/BankAccount.Tests/BankAccount.Tests.csproj",
+        "projectName": "BankAccount.Tests",
+        "projectPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/BankAccount.Tests/BankAccount.Tests.csproj",
+        "packagesPath": "/Users/michaelgustavsson/.nuget/packages/",
+        "outputPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/BankAccount.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michaelgustavsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Application/Application.csproj": {
+                "projectPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Application/Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Domain/Domain.csproj",
+        "packagesPath": "/Users/michaelgustavsson/.nuget/packages/",
+        "outputPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michaelgustavsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Persistence/Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Persistence/Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Persistence/Persistence.csproj",
+        "packagesPath": "/Users/michaelgustavsson/.nuget/packages/",
+        "outputPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michaelgustavsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Domain/Domain.csproj": {
+                "projectPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ24M/Test/GitHub/Lektion-06/WestcoastBank/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
